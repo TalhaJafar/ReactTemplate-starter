@@ -11,7 +11,7 @@ const Header = () => {
        
         <div className="row">
 
-            <div className="col-md-5 offset-1 heading">
+            <div className="col-lg-5 offset-1 heading">
                 <h1 className="font-Black">
                     Task management <br/> 
                     and lists Tool
@@ -25,9 +25,11 @@ const Header = () => {
                 </p>
                 <br/>
                 <div className="row">
-                    <TextField placeholder="Name @ Company.com" type="email" className="col-md-8"/>
-                    <div className="col-md-4">
-                        <PrimaryButton title="Try for free" />
+                    <div className="col-lg-7">
+                        <TextField placeholder="Name @ Company.com" type="email"/>
+                    </div>
+                    <div className="col-lg-5 d-flex justify-content-lg-start ">
+                        <PrimaryButton title="Try for free" className="my-lg-5"/>
                     </div>
                     
                 </div>
@@ -35,9 +37,9 @@ const Header = () => {
             </div>
 
             
-            <div className="col-md-6">
-                <img src={background} alt={background} width="100%" className="header_bg"/>
-                <img src={cards} alt={cards} width="100%"/>
+            <div className="col-lg-6">
+                {/* <img src={background} alt={background} width="100%" className="header_bg"/> */}
+                <img src={cards} alt={cards}  className="img-fluid"/>
             </div>
     
         </div>
