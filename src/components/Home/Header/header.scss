@@ -1,21 +1,14 @@
 @import '../../../styles/global.scss';
 
-.header{
-    display: flex;
-    flex-direction: row;
-    height: auto;
-    width: 100%;
-    .heading{
-        margin-top: 27.5vh;
-    }
+
+.heading{
+    margin-top: 27.5vh;
 }
 
 .header_bg{
-    width: 200%;
+    // width: 1920px;
     // position: absolute;
-    // top: -70%;
-    // right: -55%;
-    position: relative;
-    top: -40vw;
-    right: 1vh;
+    // top: -700px;
+    // right: -920px;
+    z-index: -1;
 }
