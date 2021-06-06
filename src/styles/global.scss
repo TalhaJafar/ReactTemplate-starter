@@ -1,0 +1,104 @@
+
+@import './responsiveFonts.scss';
+@import url("https://use.typekit.net/jwv0ipl.css");
+
+// $primarycolor:#daa520;
+// $secondarycolor:#FEC61D;
+
+body{
+    font-family: muli, sans-serif !important;
+    overflow-x: hidden;
+}
+
+.layout{
+    width: 100%;
+    // padding-right: 15px;
+    padding-left: 9.16vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    margin: 0;
+    padding: 0;
+    font-family: muli, sans-serif !important;
+ 
+}
+
+
+// Fonts
+.font-Regular{
+    font-family: muli, sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+}
+.font-Bold{
+    font-family: muli, sans-serif !important;
+    font-weight: 700;
+    font-style: normal;
+}
+.font-ExtraBold{
+    font-family: muli, sans-serif !important;
+    font-weight: 800;
+    font-style: normal;
+}
+.font-Black{
+    font-family: muli, sans-serif !important;
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+$min_width: 320px;
+$max_width: 1920px;
+
+$h1_min_font: 40px;
+$h1_max_font: 50px;
+
+$h2_min_font: 30px;
+$h2_max_font: 35px;
+
+$h3_min_font: 25px;
+$h3_max_font: 30px;
+
+$h4_min_font: 20px;
+$h4_max_font: 25px;
+
+$h5_min_font: 16px;
+$h5_max_font: 24px;
+
+$h6_min_font: 16px;
+$h6_max_font: 24px;
+
+$p_min_font: 11px;
+$p_max_font: 14px;
+
+h1{
+    // @include fluid-type($min_width, $max_width, $h1_min_font, $h1_max_font);
+    line-height: 1.3 !important;
+}
+h2{
+    // @include fluid-type($min_width, $max_width, $h2_min_font, $h2_max_font);
+}
+h3{
+    // @include fluid-type($min_width, $max_width, $h3_min_font, $h3_max_font);
+}
+h4{
+    // @include fluid-type($min_width, $max_width, $h4_min_font, $h4_max_font);
+}
+h5{
+    // @include fluid-type($min_width, $max_width, $h5_min_font, $h5_max_font);
+}
+h6{
+    // @include fluid-type($min_width, $max_width, $h6_min_font, $h6_max_font);
+}
+p{
+    // @include fluid-type($min_width, $max_width, $p_min_font, $p_max_font);
+}
